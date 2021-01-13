@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* banner area styling*/
+.banner-main {
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+h4 {
+  text-align: center;
+}
+/* subtitle-one styling*/
+.one {
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: mediumspringgreen;
+  margin-top: 40px;
+}
+
+.two {
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: lightcoral;
+  margin-top: 30px;
+}
+
+.three {
+  font-family: Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: skyblue;
+  margin-top: 30px;
+}
+.brushes,
+img {
+  text-align: center;
+}
+.frames,
+img {
+  text-align: center;
+}
+
+.paint,
+img {
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  padding: 0px 5px 0px 5px;
+}
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+/* Responsive*/
+@media (min-width: 768px) {
+  /* Sub-titles */
+  .one {
+    text-align: left;
+  }
+  .two {
+    text-align: left;
+  }
+  .three {
+    text-align: left;
+  }
+  /* sub-headers/images */
+  .brushes,
+  img {
+    text-align: left;
+  }
+  .frames,
+  img {
+    text-align: left;
+  }
+
+  .paint,
+  img {
+    text-align: left;
+  }
+
+  h4 {
+    text-align: left;
+  }
+  /* paragraphs */
+  .description {
+    text-align: left;
+    padding: 0;
+  }
+}
